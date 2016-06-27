@@ -45,7 +45,7 @@ Consider this mixin imported from _scss-grid-gen_.
 
 This mixin simply takes the number of columns a particular grid-element is supposed to span and converts it into a percentage based on the total number of columns available in the grid. It then assigns that value to a CSS `width` property so it may be used. Simple enough, right?
 
-### The problem...
+### A problem...
 
 Below, we see an example of how this mixin might be used. (For the purpose of simplicity, we'll be demonstrating with a relatively useless 4-column grid.)
 
@@ -79,7 +79,7 @@ The error message, which reads `"Invalid null operation: \"25% times null\"."`, 
 
 How might we provide better feedback to the user as to their error?
 
-### The solution...
+### A solution...
 
 To provide the user this feedback, we should check that the user has invoked the mixin correctly at compile-time and throw a helpful error if it doesn't. To do so, we make good use of Sass' built-in `type-of` function, as well as the `@error` directive, which will halt the compilation process.
 
