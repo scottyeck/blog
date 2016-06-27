@@ -4,7 +4,7 @@ date: 2016-06-25
 author: Scotty Eckenthal
 email: scott.eckenthal@gmail.com
 template: article
-issue: 0
+issue: 1
 ---
 
 This is the first in a series of articles written to discuss practices for delivering consumer-friendly API's in Sass libraries and modules. Often in the Front-End world, we don't think of API design as something that applies to our CSS or, for that matter, our Sass. This series will seek to debunk that notion, discussing a few basic points that, when implemented, can greatly increase the usability of your module.
