@@ -19,6 +19,10 @@ When distributing a tool, one of the best things we can do for our users is to p
 
 This, like anything else, can apply to our Sass. One of the simplest ways of doing so is type-checking the arguments passed to a function (or in Sass, a mixin as well) at runtime. This practice is not new - in fact, it is all but an expected convention in most contexts.
 
+In this article, we will discuss the ways in which these practices are employed in _scss-grid-gen_. For the impatient, the changes outlined here can be easily seen in the upgrade between version [_0.0.2_](https://github.com/scottyeck/scss-grid-gen/tree/v0.0.2) and [_0.1.0_](https://github.com/scottyeck/scss-grid-gen/tree/v0.1.0).
+
+### Context
+
 Consider this mixin imported from _scss-grid-gen_.
 
 ```scss
@@ -285,8 +289,8 @@ Not only do we need to check that `$class-formatter` is a `string`, but also tha
 
 ### Conclusion
 
-When building a library, taking a little bit of extra care to validate the arguments that are passed to your mixins and functions. It will make the user's life a lot easier!
+When building a library, taking a little bit of extra care to validate the arguments that are passed to your mixins and functions. It will make the user's life a lot easier! To see this in action in _scss-grid-gen_, take a look at the differences between versions [_0.0.2_](https://github.com/scottyeck/scss-grid-gen/tree/v0.0.2) and [_0.1.0_](https://github.com/scottyeck/scss-grid-gen/tree/v0.1.0) on GitHub.
 
 ---
 
-Look out for the upcoming Part 2 of this series, in which we discuss practices for gracefully deprecating features in your library!
+Look out for further entires in this series. In _Part 2_, we will discuss strategies for gracefully deprecating features of your library, and in _Part 3_, we will delve into the somewhat-uncharted waters of unit-testing your Sass.
