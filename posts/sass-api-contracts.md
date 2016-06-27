@@ -1,5 +1,5 @@
 ---
-title: Consumer-Friendly API's in Sass: Runtime Contracts for Functions & Mixins
+title: Consumer-Friendly API's in Sass - Runtime Contracts for Functions &amp; Mixins
 date: 2016-06-25
 author: Scotty Eckenthal
 email: scott.eckenthal@gmail.com
